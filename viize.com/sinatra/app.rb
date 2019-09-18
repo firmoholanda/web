@@ -14,6 +14,10 @@ get "/clients" do
 	erb :clients
 end
 
+get "/labs" do
+    erb :labs
+end
+
 get "/contact" do
     erb :contact
 end
